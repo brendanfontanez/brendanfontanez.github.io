@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styling/stylesheet.css" type="text/css" rel="stylesheet">
+        <title>CovidWatch</title>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/raphael.js"></script>
+        <script src="js/jquery.usmap.js"></script>
+        <script src="js/current.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="title">CovidWatch</h1>
+            <ul id="topnav">
+                <li>
+                    <a href="index.html">New Cases</a>
+                </li>
+                <li>
+                    <a href="testing.html">Testing Rates</a>
+                </li>
+                <li>
+                    <a href="cumulative.html">Cumulative Cases</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <div id="map"></div>
+        <div id="info">
+            <p>Number of new daily cases by state.</p>
+            <div id=legendbox>
+                <ul id="legend">
+                    <li><span id="color1"></span><p id="item1">Item 1</p></li>
+                    <li><span id="color2"></span><p id="item2">Item 2</p></li>
+                    <li><span id="color3"></span><p id="item3">Item 3</p></li>
+                    <li><span id="color4"></span><p id="item4">Item 4</p></li>
+                    <li><span id="color5"></span><p id="item5">Item 5</p></li>
+            </ul>
+            </div>
+        </div>
+
+    </body>
+</html>
