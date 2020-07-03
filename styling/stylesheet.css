@@ -55,7 +55,7 @@ body {
 
 #legendbox {
     width: 1100px;
-    margin: auto;
+    margin: 0px auto 30px auto;
 }
 
 #legend {
