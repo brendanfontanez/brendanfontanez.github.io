@@ -44,9 +44,9 @@ body {
 }
     
 #map {
-    width: 80%;
-    height: 80%;
-    margin: 100px -100px 30px auto;
+    width: 950px;
+    height: 600px;
+    margin: 3% auto 2% auto;
 }
 
 #info {
